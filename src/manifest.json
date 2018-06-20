@@ -23,7 +23,7 @@
     }
   ],
   "menu": {
-    "title": "syncher",
+    "title": "Syncher",
     "items": [
       "sync-identifier",
       "preview-identifier"

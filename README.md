@@ -3,7 +3,27 @@ Syncher
 
 TODO
 
+- Get file sketch contents
+
+- New Git repo
+
+- Create commit
+
+- Rebase to git remote
+
+- Send file contents to git
+
+- https://github.com/steveukx/git-js
+
 - Add manifest icon: 128x128 PNG
+
+- Generate images out of artboards
+
+- New S3 bucket with public url
+
+- Deploy images oncommit hook
+
+- Image viewer for artboard images
 
 
 Sketch plugin for single file collaboration and web preview.
