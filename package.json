@@ -1,5 +1,9 @@
 {
   "name": "syncher",
+  "description": "Sketch plugin for sync and web preview",
+  "author": "nlaitine <niko.laitinen@nitor.com>",
+  "repository": "https://github.com/laitine/syncher",
+  "license": "MIT",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
@@ -20,6 +24,5 @@
   },
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
-  },
-  "author": "nlaitine <niko.laitinen@nitor.com>"
+  }
 }

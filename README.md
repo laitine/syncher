@@ -1,4 +1,23 @@
-# syncher
+Syncher
+=========
+
+Syncher
+=======
+
+Sketch plugin for single file collaboration and web preview.
+
+# Features
+
+* Git version control
+
+* Sync file to and from cloud
+
+* Publish Artboards to web for preview
+
+# More
+
+[Sketch Developer](https://developer.sketchapp.com/)
+
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
