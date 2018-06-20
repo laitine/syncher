@@ -1,9 +1,25 @@
 {
   "name": "syncher",
-  "version": "1.0.0",
-  "description": "Sketch plugin for sync and web preview",
-  "main": "index.js",
-  "repository": "https://github.com/laitine/syncher",
-  "author": "nlaitine <niko.laitinen@nitor.com>",
-  "license": "MIT"
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "syncher",
+    "manifest": "src/manifest.json",
+    "main": "plugin.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2"
+  },
+  "author": "nlaitine <niko.laitinen@nitor.com>"
 }
