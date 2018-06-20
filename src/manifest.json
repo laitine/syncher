@@ -1,18 +1,32 @@
 {
+  "name": "Syncher",
+  "description": "Plugin for file sync, version control and web preview",
+  "author": "Niko Laitinen",
+  "homepage": "https://github.com/laitine/syncher",
+  "version": "1.0",
+  "identifier": "com.laitine.sketch.syncher-plugin",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Sync",
+      "identifier": "sync-identifier",
+      "shortcut": "shift s",
+      "script": "./sync.js"
+    },
+    {
+      "name": "Preview",
+      "identifier": "preview-identifier",
+      "shortcut": "shift p",
+      "script": "./preview.js"
     }
   ],
   "menu": {
     "title": "syncher",
     "items": [
-      "my-command-identifier"
+      "sync-identifier",
+      "preview-identifier"
     ]
   }
 }

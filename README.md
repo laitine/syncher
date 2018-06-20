@@ -1,8 +1,10 @@
 Syncher
-=========
-
-Syncher
 =======
+
+TODO
+
+- Add manifest icon: 128x128 PNG
+
 
 Sketch plugin for single file collaboration and web preview.
 
