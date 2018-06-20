@@ -1,0 +1,9 @@
+{
+  "name": "syncher",
+  "version": "1.0.0",
+  "description": "Sketch plugin for sync and web preview",
+  "main": "index.js",
+  "repository": "https://github.com/laitine/syncher",
+  "author": "nlaitine <niko.laitinen@nitor.com>",
+  "license": "MIT"
+}
